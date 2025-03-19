@@ -137,6 +137,11 @@ main {
     margin: 130px auto;
 }
 
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
 /* About Section Styles */
 .about {
     border: 1px solid black;
@@ -172,4 +177,48 @@ main {
     line-height: 30px;
     letter-spacing: 0%;
     text-align: center;
+}
+
+/* What I do Section Styles */
+.skills {
+    border-radius: 10px;
+    margin: 130px 0px;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    gap: 24px;
+}
+
+.skills-item {
+    width: 300px;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    text-align: center;
+    background: rgb(255, 248, 243);
+}
+
+.skill-title {
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.skill-description {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
 }
