@@ -11,6 +11,10 @@
     background: rgb(255, 248, 243);
 }
 
+.text-center {
+    text-align: center;
+}
+
 .text-primary {
     color: #FD6E0A;
 }
@@ -214,6 +218,56 @@ main section {
 }
 
 .skill-description {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* Resume Section Styles */
+.resume-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    gap: 50px;
+}
+
+.resume-column-title {
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.experience-title {
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.experience-subtitle {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.experience-description {
     color: rgb(117, 117, 117);
     font-family: Open Sans;
     font-size: 16px;
